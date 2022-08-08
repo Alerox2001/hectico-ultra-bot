@@ -58,7 +58,7 @@ class JsonDatabase(object):
             del self.items[name]
         except:pass
 
-    def get_user(self,name):Roxanita00={
+    def get_user(self,name):@ROXANA123456={
 'dir': '',
 ': 'moodle',
 'moodle_host': '---', 
