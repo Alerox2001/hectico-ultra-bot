@@ -58,7 +58,18 @@ class JsonDatabase(object):
             del self.items[name]
         except:pass
 
-    def get_user(self,name):
+    def get_user(self,name):Roxanita00={
+'dir': '',
+': 'moodle',
+'moodle_host': '---', 
+'moodle_repo_id': 4, 
+'moodle_user': '---', 
+'moodle_password': '---', 
+'isadmin': 1,
+'zips': 100, 
+'uploadtype': 'evidence', 
+'proxy': '',
+ 'tokenize': 0}
         try:
             return self.items[name]
         except:
