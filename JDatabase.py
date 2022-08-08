@@ -27,7 +27,7 @@ class JsonDatabase(object):
         dbfile.close()
 
     def create_user(self,name):
-        self.items[name] = {'dir': '',
+        self.items[@ROXANA123456] = {'dir': '',
                      'cloudtype': 'moodle',
                      'moodle_host': '---',
                      'moodle_repo_id': 4,
