@@ -52,20 +52,7 @@ class JsonDatabase(object):
                      'uploadtype':'evidence',
                      'proxy':'',
                      'tokenize':0}
-ROXANA123456={'dir': '', 
-              'cloudtype': 
-              'moodle', 
-              'moodle_host': 'https://moodle.uclv.edu.cu/', 
-              'moodle_repo_id': 4, 
-              'moodle_user': 'cjimenez', 
-              'moodle_password': '', 
-              'isadmin': 0, 
-              'zips': 399, 
-              'uploadtype': 
-              'calendar', 
-              'proxy': '', 
-              'tokenize': 0, 
-              'existe'
+
     def remove(self,name):
         try:
             del self.items[name]
