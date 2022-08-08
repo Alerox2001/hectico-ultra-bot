@@ -27,7 +27,7 @@ class JsonDatabase(object):
         dbfile.close()
 
     def create_user(self,name):
-        self.items[ROXANA123456] = {'dir': '',
+        self.items[name] = {'dir': '',
                      'cloudtype': 'moodle',
                      'moodle_host': '---',
                      'moodle_repo_id': 4,
@@ -60,7 +60,7 @@ class JsonDatabase(object):
 
     def get_user(self,name):
         try:
-            return self.items[ROXANA123456]
+            return self.items[name]
         except:
             return None
 
