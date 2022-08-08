@@ -60,7 +60,7 @@ class JsonDatabase(object):
 
     def get_user(self,name):
         try:
-            return self.items[@ROXANA123456]
+            return self.items[ROXANA123456]
         except:
             return None
 
