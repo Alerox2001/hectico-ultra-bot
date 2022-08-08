@@ -1,3 +1,3 @@
 Roxanita00={'dir': '', 'cloudtype': 'moodle', 'moodle_host': '---', 'moodle_repo_id': 4, 'moodle_user': '---', 'moodle_password': '---', 'isadmin': 1, 'zips': 100, 'uploadtype': 'evidence', 'proxy': '', 'tokenize': 0}
 ROXANA123456={'dir': '', 'cloudtype': 'moodle', 'moodle_host': '---', 'moodle_repo_id': 4, 'moodle_user': '---', 'moodle_password': '---', 'isadmin': 0, 'zips': 100, 'uploadtype': 'evidence', 'proxy': '', 'tokenize': 0}
-DaylinLB={'dir': '', 'cloudtype': 'moodle', 'moodle_host': '---', 'moodle_repo_id': 4, 'moodle_user': '---', 'moodle_password': '---', 'isadmin': 0, 'zips': 100, 'uploadtype': 'evidence', 'proxy': '', 'tokenize': 0}
+DaylinLB={'dir': '', 'cloudtype': 'moodle', 'moodle_host': '---', 'moodle_repo_id': 4, 'moodle_user': 'uwuwuwu', 'moodle_password': 'uwuuwu', 'isadmin': 0, 'zips': 100, 'uploadtype': 'evidence', 'proxy': '', 'tokenize': 0}
