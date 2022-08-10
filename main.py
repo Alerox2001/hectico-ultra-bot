@@ -406,7 +406,7 @@ def onmessage(update,bot:ObigramClient):
             bot.sendMessage(update.message.chat.id,tuto.read())
             tuto.close()
             return
-        if '/xdlink' in msgText:
+        if '/xdlinkkkkkk' in msgText:
 
             try: 
                 urls = str(msgText).split(' ')[1]
@@ -423,7 +423,7 @@ def onmessage(update,bot:ObigramClient):
                 bot.sendMessage(chat_id = chatid, parse_mode = 'Markdown', text = msg)
             return
 
-        if '/xdon' in msgText:
+        if '/xdonxdonnnn' in msgText:
             getUser = user_info
             if getUser:
                 getUser['xdlink'] = 1
@@ -433,7 +433,7 @@ def onmessage(update,bot:ObigramClient):
                 bot.sendMessage(update.message.chat.id,statInfo)
             return
             
-        if '/xdoff' in msgText:
+        if '/xdofffffgg' in msgText:
             getUser = user_info
             if getUser:
                 getUser['xdlink'] = 0
@@ -443,7 +443,7 @@ def onmessage(update,bot:ObigramClient):
                 bot.sendMessage(update.message.chat.id,statInfo)
             return
 
-        if '/channelid' in msgText:
+        if '/channelhhvvvvid' in msgText:
             channelId = str(msgText).split(' ')[1]
             getUser = user_info
             try:
@@ -458,7 +458,7 @@ def onmessage(update,bot:ObigramClient):
                 bot.sendMessage(chat_id = chatid, parse_mode = 'Markdown', text = msg)
             return
 
-        if '/delChannel' in msgText:
+        if '/delChanghhhnel' in msgText:
             getUser = user_info
             if getUser:
                 getUser['channelid'] = 0
@@ -467,7 +467,7 @@ def onmessage(update,bot:ObigramClient):
                 statInfo = infos.createStat(username,getUser,jdb.is_admin(username))
                 bot.sendMessage(update.message.chat.id,statInfo)
             return
-        if '/about' in msgText:
+        if '/aboujjjjjt' in msgText:
             message = bot.sendMessage(update.message.chat.id,'📄')
             información = open('información.txt','r')
             bot.sendMessage(update.message.chat.id,información.read())
@@ -479,13 +479,13 @@ def onmessage(update,bot:ObigramClient):
             bot.sendMessage(update.message.chat.id,comandos.read())
             información.close()
             return
-        if '/myuser' in msgText:
+        if '/myusermyuser' in msgText:
             getUser = user_info
             if getUser:
                 statInfo = infos.createStat(username,getUser,jdb.is_admin(username))
                 bot.sendMessage(update.message.chat.id,statInfo)
                 return
-        if '/zips' in msgText:
+        if '/zipgghllvs' in msgText:
             getUser = user_info
             if getUser:
                 try:
@@ -498,9 +498,9 @@ def onmessage(update,bot:ObigramClient):
                 except:
                    bot.sendMessage(update.message.chat.id,'⚠️Command error /zips zips_size⚠️')    
                 return
-        if '/gen' in msgText:
+        if '/gevvvn' in msgText:
             pass444
-        if '/acc' in msgText:
+        if '/achhc' in msgText:
             try:
                 account = str(msgText).split(' ',2)[1].split(',')
                 user = account[0]
@@ -517,7 +517,7 @@ def onmessage(update,bot:ObigramClient):
                 bot.sendMessage(update.message.chat.id,'⚠️Command error /acc user,password⚠️')
             return
 
-        if '/host' in msgText:
+        if '/hoshhhggt' in msgText:
             try:
                 cmd = str(msgText).split(' ',2)
                 host = cmd[1]
@@ -531,7 +531,7 @@ def onmessage(update,bot:ObigramClient):
             except:
                 bot.sendMessage(update.message.chat.id,'⚠️Command error /host cloud_url⚠️')
             return
-        if '/repo' in msgText:
+        if '/reghhhpo' in msgText:
             try:
                 cmd = str(msgText).split(' ',2)
                 repoid = int(cmd[1])
@@ -545,7 +545,7 @@ def onmessage(update,bot:ObigramClient):
             except:
                 bot.sendMessage(update.message.chat.id,'⚠️Command error /repo moodle_repo_id⚠️')
             return
-        if '/encrypt_on' in msgText:
+        if '/encrypgggggt_on' in msgText:
             try:
                 getUser = user_info
                 if getUser:
@@ -557,7 +557,7 @@ def onmessage(update,bot:ObigramClient):
             except:
                 bot.sendMessage(update.message.chat.id,'⚠️Command error /encrypt_on encrypt_state⚠️')
             return
-        if '/encrypt_off' in msgText:
+        if '/encryptvvvvv_off' in msgText:
             try:
                 getUser = user_info
                 if getUser:
@@ -569,7 +569,7 @@ def onmessage(update,bot:ObigramClient):
             except:
                 bot.sendMessage(update.message.chat.id,'⚠️Command error /encript_off encrypt_state⚠️')
             return
-        if '/cloud' in msgText:
+        if '/clouhhhvvd' in msgText:
             try:
                 cmd = str(msgText).split(' ',2)
                 repoid = cmd[1]
@@ -583,7 +583,7 @@ def onmessage(update,bot:ObigramClient):
             except:
                 bot.sendMessage(update.message.chat.id,'⚠️Command error /cloud (moodle or cloud)⚠️')
             return
-        if '/uptype' in msgText:
+        if '/uptyhhhvggpe' in msgText:
             try:
                 cmd = str(msgText).split(' ',2)
                 type = cmd[1]
@@ -598,7 +598,7 @@ def onmessage(update,bot:ObigramClient):
                 bot.sendMessage(update.message.chat.id,'⚠️Command error /uptype (evidence,draft,blog,calendar)⚠️')
             return
 
-        if '/search_proxy' in msgText:
+        if '/searcvvvbbvh_proxy' in msgText:
             msg_start = 'Buscando proxy, esto puede tardar de una a dos horas...'
             bot.sendMessage(update.message.chat.id,msg_start)
             print("Buscando proxy...")
